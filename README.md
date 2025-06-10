@@ -1,4 +1,4 @@
-# DevBurger 🍔
+# Mario Brothers
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/seu-usuario/DevBurger/releases/tag/v1.0.0)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/seu-usuario/DevBurger/ci.yml?branch=main)](https://github.com/seu-usuario/DevBurger/actions)
@@ -8,7 +8,7 @@
 
 ## Sobre
 
-DevBurger é um site moderno focado em hamburgueria, construído com React e Vite para oferecer uma experiência rápida e agradável para os amantes de hambúrguer.
+Cano estourado? Vazamento inesperado? Deixa com a gente! Somos especialistas em manutenção hidráulica residencial, com atendimento rápido, serviço de qualidade e preço justo. Ligue agora e resolva seu problema sem dor de cabeça.
 
 ---
 
@@ -30,4 +30,4 @@ DevBurger é um site moderno focado em hamburgueria, construído com React e Vit
 
 **Quero agradecer a uma das maiores escolas do Brasil para Desenvolvedore(a) que é o DevClub**
 
-**E também muito obrigado a todos que fazem o DevClu pela contruibuiçoes no desenvolvimento desse projeto**
+**E também muito obrigado a todos que fazem o DevClub pela contruibuiçoes**
