@@ -1,0 +1,131 @@
+@media (max-width: 480px) {
+  /* Estilos específicos para telas muito pequenas */
+}
+
+/* Smartphones médios e tablets em modo retrato */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Estilos para celulares grandes e tablets menores */
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navegation-menu {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+
+  .video_back {
+    height: auto;
+    width: auto;
+
+  }
+
+  .mascara_back {
+    height: auto;
+    width: 100%;
+  }
+
+  .section-main {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+
+  }
+
+  .img-content {
+
+    margin: 100px 7px;
+  }
+
+}
+
+/* Tablets e dispositivos médios (ex: iPad) */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navegation-menu {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: white;
+
+  }
+
+
+  .video_back {
+    height: 100hv;
+    width: 100vw;
+
+  }
+
+  .mascara_back {
+    height: auto;
+    width: 100vw;
+
+  }
+
+  .section-main {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+
+  }
+
+  .img-content {
+
+    margin: 100px 7px;
+  }
+
+}
+
+/* Laptops e desktops padrão */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Estilos para notebooks e desktops comuns */
+}
+
+/* Desktops grandes */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  /* Monitores maiores */
+}
+
+/* Telas muito grandes (ultrawide, 4K, etc) */
+@media (min-width: 1440px) {
+  /* Estilos para telas grandes */
+}
+
+
+</style></html>

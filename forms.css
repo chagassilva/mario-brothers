@@ -1,0 +1,85 @@
+.form-slide-left {
+
+   
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: none;
+    width: 300px;
+    border-radius: 10px;
+    visibility: visible;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgb(69, 34, 195) 0%, rgb(253, 45, 45) 100%);
+    margin-left: -300px;
+    
+    
+
+    
+}
+
+
+
+.btn-buttonshow{
+
+
+    width: 10%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+
+ input{
+
+
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 5px;
+ }
+
+
+.closed-form {
+
+    display: flex;
+    margin: 8px 0px;
+    color: white;
+    flex-direction: row-reverse;
+    cursor: pointer;
+    
+}
+
+textarea {
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.btn-contact{
+
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+    }
+
+    .container-form{
+
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 25%;
+;
+
+    }

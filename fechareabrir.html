@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão para abrir e fechar conteúdo</title>
+    <style>
+        #conteudo {
+            visibility: hidden; /* Inicialmente oculto */
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="botao">Abrir Conteúdo</button>
+    <div id="conteudo">
+        <p>Este é o conteúdo que pode ser aberto ou fechado!</p>
+    </div>
+
+    <script>
+        const botao = document.getElementById("botao");
+        const conteudo = document.getElementById("conteudo");
+
+        botao.addEventListener("click", function() {
+
+            if (conteudo.style.visibility === "hidden" || conteudo.style.visibility === "") {
+                conteudo.style.visibility = "visible";
+                botao.textContent = "Fechar Conteúdo";
+
+            } else {
+                conteudo.style.visibility = "hidden";
+                botao.textContent = "Abrir Conteúdo";
+            }
+        });
+    </script>
+
+</body>
+</html>
